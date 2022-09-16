@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    margin: 8px 8px;
+    width: 50%;
+    height: 50%;
+}
+.icon {
+    min-width: 120px;
+    display: flex;
+}
+.icon_left {
+    height: 30px;
+    width: 30px;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 3px;
+    margin-right: 7px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.icon_right {
+    color: brown;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.skill_chart {
+    display: flex;
+    background-color: #F5F5F5;
+    flex: 1;
+    height: 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.skill_chart_item {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+.skill_chart_percentage {
+    color: aquamarine;
+    border-radius: 5px 0 0 5px;
+}
+.skill_chart_right {
+    border-radius: 0 5px 5px 0;
+}
